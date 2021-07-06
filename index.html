@@ -1,0 +1,62 @@
+<html>
+
+<head>
+	<title>photo gallery</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<ul class="menu">
+		<li class="link"><a href="#home">Home</a></li>
+		<li class="link"><a href="#gridView">Grid View</a></li>
+		<li class="link"><a href="#slideView">Slide View</a></li>
+	</ul>
+	<section id="home">
+		<h1>Flowers Gallery</h1>
+		<img src="flowers.gif" height="400" width="700" id="gifIMG">
+	</section>
+	<br>
+	<br>
+	<br>
+	<section id="gridView">
+		<h1>Grid View</h1>
+		<span> <img id="gridIMG" src="Red%20rose.jpg"> <img id="gridIMG" src="Orange.png"> <img id="gridIMG" src="Pink%20tulip.jpg"> </span>
+		<br>
+		<br>
+		<span>
+			<img src="purple.jpg" id="gridIMG">
+			<img src="violet.jpg" id="gridIMG">
+			<img src="White.jpg" id="gridIMG">
+		</span>
+	</section>
+	<br>
+	<br>
+	<br>
+	<section id="slideView">
+		<h1>Slide View</h1>
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner">
+				<div class="item active"> <a href="#" target="_blank">
+						<img class="img-responsive" src="yellow.jpg">
+					</a>
+					<h3 class="carousel-caption" id="headerF1">Sunflower</h3>
+				</div>
+			</div>
+			<div class="item active"> <a href="#" target="_blank">
+					<img class="img-responsive" src="White.jpg">
+				</a>
+				<h3 class="carousel-caption" id="flower2">Lily</h3>
+			</div>
+			<a class="left carousel-control" href="#myCarousel2" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron left"></span>
+			</a>
+
+			<a class="right carousel-control" href="#myCarousel2" data-slide="next">
+				<span class="glyphicon glyphicon-chevron right"></span>
+			</a>
+		</div>
+
+	</section>
+</body>
+
+</html>
